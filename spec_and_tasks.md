@@ -80,7 +80,7 @@ App (Layout)
 ## Tasks
 以下清單可依開發進度勾選：
 
-- [ ] 初始化 Vite + React + TypeScript 專案
+- [x] 初始化 Vite + React + TypeScript 專案
 - [ ] 建立 Zustand 狀態管理結構
 - [ ] 設計路由與基本頁面（Sidebar、EpisodeList、EpisodeDetail）
 - [ ] 實作訂閱管理（新增、刪除／暫停、OPML 匯入／匯出）
