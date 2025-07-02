@@ -1,7 +1,6 @@
 name: Deploy to GitHub Pages
 
-on:
-  push:
+on: push
 
 permissions:
   contents: read
@@ -29,10 +28,6 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: app
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
